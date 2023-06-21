@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+	<PackageId>UzunTec.Utils.TaskUtis</PackageId>
+	<Version>0.1.0</Version>
+	<Authors>Uzun Technology</Authors>
+	<Company>Uzun Technology</Company>
+	<RepositoryUrl>https://github.com/uztec/task-utils.git</RepositoryUrl> 
+	<RepositoryType>git</RepositoryType> 
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
+	<Copyright>© 2023 Uzun Technology</Copyright> 
+	<OutputType>Library</OutputType> 
+	<PackageTags>Tasks DotNetTask ParallelTasks Parallel TaskPool Pool</PackageTags> 
+	<PackageIcon>task-utils-uztec.png</PackageIcon> 
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="UzunTec.Utils.Common" Version="0.2.3" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <None Include="task-utils-uztec.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
+
+  
+
