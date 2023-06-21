@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TaskPool21.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UzunTec.Utils.Common" Version="0.2.3" />
+  </ItemGroup>
+
+</Project>
